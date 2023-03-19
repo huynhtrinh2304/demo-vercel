@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-import { connectMGDB } from './connectMDB';
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
